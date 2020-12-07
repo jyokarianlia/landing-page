@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 18px;
+}
+
+.header {
+    padding: .5em;
+    width: 1440px;
+}
+
+.logo {
+    width: 30%;
+}
+
+.menu {
+    width: 40%;
+}
+
+.request {
+    width: 30%;
+}
+
+.logo, .menu, .request, li {
+    margin: auto auto;
+    display: inline-block;
+}
+
+.menu ul li {
+    margin: .5em 1.5em;
+}
+
+.btnRequest {
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    padding: .6em 2.3em;
+    border: 1px transparent;
+    border-radius: 1.5em;
+    color: white;
+}
