@@ -5,32 +5,29 @@
     text-decoration: none;
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
+    color: hsl(233, 8%, 62%);
 }
 
 .header {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    align-items: center;
     padding: .5em;
     width: 1440px;
 }
 
 .logo {
-    width: 30%;
-}
-
-.menu {
-    width: 40%;
+    text-align: right;
 }
 
 .request {
-    width: 30%;
+    text-align: left;
 }
 
-.logo, .menu, .request, li {
-    margin: auto auto;
-    display: inline-block;
-}
-
-.menu ul li {
+.menu .li {
     margin: .5em 1.5em;
+    text-decoration-style: none;
+    font-size: .3em;
 }
 
 .btnRequest {

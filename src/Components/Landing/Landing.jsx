@@ -10,13 +10,11 @@ const Landing = () => {
                     <img src={ logo } alt=""/>
                 </div>
                 <div className="menu">
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                        <li>Blog</li>
-                        <li>Careers</li>
-                    </ul>
+                    <span className='li'><a href="http://">Home</a></span>
+                    <span className='li'><a href="http://">About</a></span>
+                    <span className='li'><a href="http://">Contact</a></span>
+                    <span className='li'><a href="http://">Blog</a></span>
+                    <span className='li'><a href="http://">Careers</a></span>
                 </div>
                 <div className="request">
                     <button className='btnRequest'>Request Invite</button>
