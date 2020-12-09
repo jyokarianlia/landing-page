@@ -1,39 +1,82 @@
 * {
-    text-align: center;
     margin: 0px;
     padding: 0px;
-    text-decoration: none;
     font-family: 'Public Sans', sans-serif;
     font-size: 18px;
     color: hsl(233, 8%, 62%);
 }
 
+/* Estilos de la Cabecera de la pagina (HEADER) */
 .header {
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 25% 50% 25%;
     align-items: center;
-    padding: .5em;
-    width: 1440px;
+    max-width: 1422px;
 }
 
-.logo {
-    text-align: right;
+.logo { text-align: right; }
+
+.menu {
+    height: 5em;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1.5em;
+    align-items: center;
 }
 
-.request {
-    text-align: left;
-}
+.li { background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%)); }
 
-.menu .li {
-    margin: .5em 1.5em;
-    text-decoration-style: none;
-    font-size: .3em;
+.menu .li a {
+    background-color: white;
+    padding: 1.8em 0em;
+    display: block;
 }
 
 .btnRequest {
     background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
-    padding: .6em 2.3em;
+    padding: .4em 2em;
     border: 1px transparent;
     border-radius: 1.5em;
     color: white;
+}
+
+/*  Estilos del ACTIVE */
+.li:hover { padding-bottom: .2em; }
+
+.li a:hover { color: black; }
+
+/* Estilos del cuerpo de la landing page (BODY) */
+.fondo-claro {
+    background-color: hsl(220, 16%, 96%);
+    padding: 2em 0px;
+    width: 1440px;
+}
+
+.fondo-oscuro {
+    background-color: hsl(233, 8%, 62%);
+    padding: 2em 0px;
+}
+
+/* Estilos del Pie de pagina (FOOTER) */
+.footer {
+    display: grid;
+    grid-template-columns: 10% 24% 11% 11% 12.5% 20% 10%;
+    background-color: hsl(233, 26%, 24%);
+    width: 1440px;
+    padding: 2em 0em;
+}
+
+.footer img { margin: 1em .6em; }
+
+.footer a {
+    display: block;
+    margin: .3em 0em;
+    text-align: left;
+}
+
+.footer label {
+    text-align: right;
+    display: block;
+    font-size: .9em;
+    margin-top: 1.6em;
 }

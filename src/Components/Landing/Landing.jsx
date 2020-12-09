@@ -15,20 +15,22 @@ const Landing = () => {
                     <img src={ logo } alt=""/>
                 </div>
                 <div className="menu">
-                    <span className='li'><a href="http://">Home</a></span>
-                    <span className='li'><a href="http://">About</a></span>
-                    <span className='li'><a href="http://">Contact</a></span>
-                    <span className='li'><a href="http://">Blog</a></span>
-                    <span className='li'><a href="http://">Careers</a></span>
+                    <div></div>
+                    <div className='li'><a href="http://">Home</a></div>
+                    <div className='li'><a href="http://">About</a></div>
+                    <div className='li'><a href="http://">Contact</a></div>
+                    <div className='li'><a href="http://">Blog</a></div>
+                    <div className='li'><a href="http://">Careers</a></div>
                 </div>
-                <div className="request">
+                <div>
                     <button className='btnRequest'>Request Invite</button>
                 </div>
             </div>
             
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className='fondo-claro'>
+                <div className='fondo-oscuro'></div>
+            </div>
+
             <div className='footer'>
                 <div></div>
                 <div>
@@ -39,19 +41,19 @@ const Landing = () => {
                     <img src={ iconInstagram } alt=""/>
                 </div>
                 <div>
-                    <a href="">About Us</a>
-                    <a href="">Contact</a>
-                    <a href="">Blog</a>
+                    <a href="http://">About Us</a>
+                    <a href="http://">Contact</a>
+                    <a href="http://">Blog</a>
                 </div>
                 <div>
-                    <a href="">Careers</a>
-                    <a href="">Support</a>
-                    <a href="">Provaci Policy</a>
+                    <a href="http://">Careers</a>
+                    <a href="http://">Support</a>
+                    <a href="http://">Privacy Policy</a>
                 </div>
                 <div></div>
-                <div>
-                    <button className='btn-format'>Request Invite</button>
-                    <label htmlFor="">Easebank. All Rights Reserved</label>
+                <div className='bo'>
+                    <button className='btnRequest'>Request Invite</button>
+                    <label htmlFor="">&copy; Easebank. All Rights Reserved</label>
                 </div>
                 <div></div>
             </div>
